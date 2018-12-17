@@ -1,0 +1,28 @@
+.commenters-list{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.add-comment-btn{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 10 auto;
+}
+
+.msg-btn{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .commenters-list{
+        width: 90%;
+        margin: 20px auto;
+    }
+}

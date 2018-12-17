@@ -1,0 +1,11 @@
+.profile-img-list{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile-username-list{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+
+}

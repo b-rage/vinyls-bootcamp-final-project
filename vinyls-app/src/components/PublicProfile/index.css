@@ -1,0 +1,42 @@
+.follow-btn{
+    color:white;
+    background-color: #45b7b7;
+    padding: 5px 10px;
+    border: 1px solid white;
+    font-size: 13px;
+}
+
+.dont-follow-btn{
+    color:white;
+    background-color: #f57665;
+    padding: 5px 10px;
+    border: 1px solid white;
+    font-size: 13px;
+
+}
+
+.follows{
+    color: #071e3d;
+    font-size: 15px;
+
+}
+
+.profile-bio{
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    .profile-container {
+        width: 92%;
+        
+    }
+
+    .profile-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 10px 0;
+    }
+
+}

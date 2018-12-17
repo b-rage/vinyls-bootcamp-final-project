@@ -1,0 +1,8 @@
+
+
+# dependencies
+/node_modules
+/.versions
+/data
+/coverage
+/.nyc_output

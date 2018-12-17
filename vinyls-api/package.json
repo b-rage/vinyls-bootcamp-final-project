@@ -1,0 +1,33 @@
+{
+  "name": "vinyls-api",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  
+    "start": "node .",
+    "debug": "node debug .",
+    "test": "mocha logic",
+    "coverage": "nyc mocha logic/index.spec.js --timeout 15000",
+    "coverage-report": "nyc report --reporter=html"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "busboy": "^0.2.14",
+    "cloudinary": "^1.13.2",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "path": "^0.12.7",
+    "uuid": "^3.3.2",
+    "vinyls-data": "file:../vinyls-data"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nyc": "^13.1.0"
+  }
+}

@@ -1,0 +1,31 @@
+
+
+
+.img-profile-small{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav-link  {
+    color: white;
+    margin-top: 10px;
+}
+
+.icon-users{
+    margin-top: 3px;
+}
+
+.icon-logout{
+    margin-top: 3px;
+    
+}
+
+.user-name-navbar{
+    font-size: 13px;
+}
+
+.nav-link.waves-effect.waves-light .fa.fa-star{
+    color: white;
+}

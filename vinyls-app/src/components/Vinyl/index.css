@@ -1,0 +1,128 @@
+.vinyl-container{
+    margin: 40px auto;
+    width: 70%;
+    text-align: center;
+    padding: 3px;
+}
+
+.vinyl-img{
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.vinyl-title{
+    color: black;
+    font-size: 32px;
+    text-transform: capitalize;
+
+}
+
+.vinyl-artist{
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+
+.vinyl-year{
+    color: black;
+    font-size: 20px;
+}
+
+.vinyl-info{
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px 5px 30px;;
+}
+
+.fa-star{
+    color: #f8b500;
+}
+
+
+.dont-like-btn{
+    font-size: 32px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+
+}
+
+.like-btn{
+    font-size: 32px;
+    margin-left: -15px;
+}
+
+.likes-count{
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile-img-list{
+    width: 33px;
+    height: 33px;
+}
+
+.profile-vinyl{
+    margin-top: 10px;
+}
+
+.msg-button {
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    margin-bottom: -5px;
+}
+
+.fa-comment-alt{
+    color: black;
+    font-size: 20px;
+
+}
+
+.add-comment-icon-text{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-comment-container{
+    text-align: left;
+}
+
+.comment-btn{
+    padding: 3px 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: 0px;
+}
+
+.form-add-comment{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .vinyl-container {
+        width: 92%;
+    }
+
+    .vinyl-img{
+        width: 200px;
+        border-radius: 50%;
+        margin: 10px 0;
+    }
+
+    #comment-input{
+        width: 95%;
+        }
+
+}

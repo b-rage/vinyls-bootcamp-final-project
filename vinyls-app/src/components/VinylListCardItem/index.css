@@ -1,0 +1,121 @@
+
+
+.card {
+    width: 300px;
+    margin: 20px auto;    
+}
+
+.card-user{
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.profile-img-card{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 23px;
+
+}
+
+.profile-username-card{
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+
+
+.title-card{
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-left: 23px;
+    margin-top: -15px;
+    text-transform: capitalize;
+}
+
+.card-image{
+    width: 300px;
+}
+
+.artist-card {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 23px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.year-card {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 23px;
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+
+.card-content {
+    margin-left: 24px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+   
+}
+
+.float{
+	position: absolute;;
+	width:60px;
+	height:60px;
+	bottom:115px;
+	right:20px;
+	background-color:black;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
+
+.my-float{
+    color: white;
+	margin-top:22px;
+}
+
+
+
+i.far.fa-comment-alt{
+    font-size: 13px;
+}
+
+i.fas.fa-star{
+    font-size: 14px;
+}
+
+
+.comment-card{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+.likes-card{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin-left: 4px;
+}
+
+.likes-count-card{
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+

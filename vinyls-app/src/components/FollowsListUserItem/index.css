@@ -1,0 +1,31 @@
+.profile-img-list{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile-username-list{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}

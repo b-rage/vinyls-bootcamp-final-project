@@ -1,0 +1,17 @@
+.error {
+    margin: 20px auto;
+    text-align: center;
+    width: 30%;
+    color: #880e4f;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .error {
+        margin: 20px auto;
+        text-align: center;
+        width: 70%;
+        color: #880e4f;
+    }
+}

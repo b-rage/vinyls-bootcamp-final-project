@@ -1,0 +1,17 @@
+.users-gallery__img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.users-gallery{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.users-gallery__username{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}

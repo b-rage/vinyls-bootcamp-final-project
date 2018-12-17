@@ -1,0 +1,36 @@
+.edit-profile1-container {
+    margin: 40px auto 10px;
+    text-align: center;
+    width: 90%;
+}
+
+
+
+input[type="file"] {
+
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit-next-btn {
+    margin-top: 80px;
+    background-color: #298f9b;
+    color: white;
+    padding: 4px 8px;
+    width: 10%;
+    font-size: 13px;
+}
+
+.picture__preview {
+    width: 300px;
+    height: 300px;
+}
+@media screen and (max-width: 900px) {
+
+    .edit-profile-container {
+        width: 100%;
+    }
+
+}

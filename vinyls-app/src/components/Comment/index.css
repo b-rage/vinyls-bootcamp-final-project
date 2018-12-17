@@ -1,0 +1,50 @@
+.img-profile-micro{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment-username{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: black;
+}
+
+.comment-user-container{
+    width: 90%;
+    padding: 6px 2px; 
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+.comment-text{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+
+.comment-first-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    padding: 0px 5px 0px 5px;;  
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .comment-user-container{
+        width: 95%;
+    }
+
+    .comment-first-container{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;   
+    
+    }
+
+}

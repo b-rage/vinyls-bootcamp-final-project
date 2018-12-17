@@ -1,0 +1,34 @@
+#comment-text{
+    width: 100%;
+    border-radius: 7px;
+    font-size: 13px;
+    height: auto;
+}
+
+.add-comment-container{
+    text-align: left;
+}
+
+#comment-btn{
+
+    background-color: #364e68;
+    color: white;
+    font-size:12px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin-bottom: 15px;
+}
+
+.form-add-comment{
+    margin-bottom: 0px;
+}
+
+.textareaElement {
+    width: 300px;
+    min-height: 17px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }

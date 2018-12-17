@@ -1,0 +1,21 @@
+.register-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 8%;
+}
+
+.back{
+    margin-top: 20px;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+
+    .register-container {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        margin-top: 10%;
+    }
+}
